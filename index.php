@@ -1,0 +1,35 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home - Sitonik Portfolio</title>
+  <link rel="stylesheet" href="style.css"> <!-- External CSS -->
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <nav>
+      <a href="index.php">Home</a>
+      <a href="about.php">About Me</a>
+      <a href="projects.php">Projects</a>
+      <a href="skills.php">Skills</a>
+      <a href="contact.php">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="section">
+      <h2>Hello, I’m Sitonik</h2>
+      <p>
+        This is my digital portfolio — showcasing my skills in coding, electrical systems, 
+        and community projects. Explore my work, achievements, and get in touch!
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; <?php echo date("Y"); ?> Sitonik Kibet Rotich | My Digital Portfolio</p>
+  </footer>
+</body>
+</html>

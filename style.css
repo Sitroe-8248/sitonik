@@ -1,0 +1,163 @@
+/* ===============================
+   Global Styles
+   =============================== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===============================
+   Header & Navigation
+   =============================== */
+header {
+  background: #004466;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* ===============================
+   Sections & Cards
+   =============================== */
+.section {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #004466;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: #0077aa;
+  margin-bottom: 10px;
+}
+
+/* ===============================
+   Skills Progress Bars
+   =============================== */
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.progress-bar {
+  background: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 22px;
+  background: #0077aa;
+  text-align: right;
+  padding-right: 8px;
+  color: #fff;
+  line-height: 22px;
+  font-size: 0.9em;
+}
+
+/* Centers the form and limits its width */
+.form-container {
+  max-width: 500px; /* Keeps the form from stretching too wide */
+  margin: 50px auto; /* Centers it horizontally with some top/bottom breathing room */
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Adds a soft shadow to make it pop */
+}
+
+/* Form layout - stacking elements neatly */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Adds clean spacing between fields */
+}
+
+form label {
+  font-weight: 700;
+  color: #004466;
+  margin-bottom: 2px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  box-sizing: border-box; /* Ensures padding doesn't break the container */
+  font-family: inherit;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+form button {
+  padding: 14px;
+  background: #004466;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+form button:hover {
+  background: #0077aa;
+}
+/* ===============================
+   Footer
+   =============================== */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #004466;
+  color: #fff;
+  margin-top: 40px;
+}
