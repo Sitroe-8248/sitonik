@@ -10,7 +10,7 @@
   <header>
     <h1>About Me</h1>
     <nav>
-      <a href="index.php">Home</a>
+      <a href="index.html">Home</a>
       <a href="about.php">About Me</a>
       <a href="projects.php">Projects</a>
       <a href="skills.php">Skills</a>

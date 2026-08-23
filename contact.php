@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <header>
     <h1>Contact Me</h1>
     <nav>
-      <a href="index.php">Home</a>
+      <a href="index.html">Home</a>
       <a href="about.php">About Me</a>
       <a href="projects.php">Projects</a>
       <a href="skills.php">Skills</a>
