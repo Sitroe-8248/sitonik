@@ -1,35 +1,110 @@
-<?php session_start(); ?>
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Home - Sitonik Portfolio</title>
-  <link rel="stylesheet" href="style.css"> <!-- External CSS -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="The portfolio of Sitonik Kibet Rotich — electrical engineering technician, software development graduate and creative technologist based in Kenya.">
+  <meta property="og:title" content="Sitonik Kibet Rotich — Engineer • Developer • Creator">
+  <meta property="og:description" content="Electrical engineering, practical automation and software development. Explore my experience and projects.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.sitonik.com/">
+  <title>Sitonik Kibet Rotich | Engineer, Developer & Creator</title>
+  <link rel="canonical" href="https://www.sitonik.com/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Portfolio</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.php">About Me</a>
-      <a href="projects.php">Projects</a>
-      <a href="skills.php">Skills</a>
-      <a href="contact.php">Contact</a>
-    </nav>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Sitonik home"><span class="brand-mark">S</span><span>sitonik<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span></button>
+      <nav id="primary-nav" class="nav-links" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact" class="nav-cta">Let's talk <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <div class="section">
-      <h2>Hello, I’m Sitonik</h2>
-      <p>
-        This is my digital portfolio — showcasing my skills in coding, electrical systems, 
-        and community projects. Explore my work, achievements, and get in touch!
-      </p>
-    </div>
+  <main id="main">
+    <section class="hero section-pad" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> BASED IN KENYA · OPEN TO OPPORTUNITIES</div>
+          <h1>Building at the intersection of <span>engineering</span> and technology.</h1>
+          <p class="hero-lead">I'm Sitonik Kibet Rotich — an electrical engineering technician, software development graduate and hands-on problem solver interested in practical technology that makes everyday work better.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+            <a class="button button-quiet" href="#contact">Get in touch</a>
+          </div>
+          <div class="hero-meta"><span>Electrical systems</span><i></i><span>Software development</span><i></i><span>Automation</span></div>
+        </div>
+        <aside class="profile-card" aria-label="Profile">
+          <div class="profile-glow"></div>
+          <img class="profile-photo" src="https://avatars.githubusercontent.com/u/279111006?v=4" alt="Sitonik's GitHub profile avatar">
+          <div class="profile-card-bottom"><span class="profile-label">A LITTLE ABOUT ME</span><strong>Curious by nature.<br>Practical by design.</strong><span class="location-line">⌖ Kenya, East Africa</span></div>
+          <span class="orbit orbit-one"></span><span class="orbit orbit-two"></span>
+        </aside>
+      </div>
+      <div class="container hero-foot"><span>01 / INTRODUCTION</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="section-pad section-light" id="about">
+      <div class="container two-col">
+        <div><p class="section-kicker">01 — ABOUT ME</p><h2>Technical thinking.<br><span class="muted-heading">A creative mindset.</span></h2></div>
+        <div class="about-copy">
+          <p class="large-copy">I bring together electrical engineering, software development and a willingness to learn by doing.</p>
+          <p>My experience includes electrical fieldwork, meter inspection and replacement, and exposure to irrigation automation systems. I have also trained in software development and enjoy exploring how digital tools can solve real-world problems.</p>
+          <p>I value reliability, continuous learning and work that has a clear practical outcome. I'm interested in opportunities where engineering and technology meet.</p>
+          <a class="text-link" href="mailto:sitonikrotich7@gmail.com">Email me <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad section-dark" id="experience">
+      <div class="container">
+        <div class="section-heading"><div><p class="section-kicker">02 — EXPERIENCE & EDUCATION</p><h2>Learning through <span>real work.</span></h2></div><p class="section-intro">A growing technical journey, built through formal training and hands-on field experience.</p></div>
+        <div class="timeline">
+          <article class="timeline-item"><div class="timeline-date">2025 — 2026</div><div class="timeline-body"><h3>Electrical Craftsman · Field Experience</h3><p class="timeline-org">Jkuates Company · Stationed at Kenya Power (KPLC)</p><p>Worked on electrical metering activities, including meter inspections, identifying faults and signs of tampering, and post-paid meter replacement.</p><div class="tag-row"><span>Meter inspection</span><span>Meter replacement</span><span>Electrical fieldwork</span></div></div></article>
+          <article class="timeline-item"><div class="timeline-date">2026</div><div class="timeline-body"><h3>Certificate in Software Development</h3><p class="timeline-org">Institute of Software Development</p><p>Completed a four-month software development course, building a foundation in programming and digital problem-solving.</p></div></article>
+          <article class="timeline-item"><div class="timeline-date">2025</div><div class="timeline-body"><h3>Diploma in Electrical Engineering</h3><p class="timeline-org">IESR · KNEC</p><p>Completed diploma studies; academic transcripts available.</p></div></article>
+          <article class="timeline-item"><div class="timeline-date">Earlier training</div><div class="timeline-body"><h3>Craft Certificate in Electrical Engineering</h3><p class="timeline-org">KNEC</p><p>Foundation in electrical engineering principles and practical technical skills.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad section-light" id="skills">
+      <div class="container">
+        <div class="section-heading"><div><p class="section-kicker">03 — WHAT I WORK WITH</p><h2>A practical <span>skill set.</span></h2></div><p class="section-intro">A snapshot of areas I've studied, worked with or gained practical exposure to — not proficiency scores.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-number">01</span><div class="skill-icon">⌁</div><h3>Electrical engineering</h3><p>Electrical installation fundamentals, metering, inspection and field maintenance activities.</p><div class="tag-row"><span>Electrical systems</span><span>Metering</span><span>Fault identification</span></div></article>
+          <article class="skill-card"><span class="skill-number">02</span><div class="skill-icon">⌘</div><h3>Software development</h3><p>Foundational web development and database concepts, with continued independent practice.</p><div class="tag-row"><span>HTML</span><span>CSS</span><span>PHP</span><span>MySQL</span></div></article>
+          <article class="skill-card"><span class="skill-number">03</span><div class="skill-icon">⟲</div><h3>Automation exposure</h3><p>Hands-on exposure to irrigation control components and timed switching systems.</p><div class="tag-row"><span>Timers</span><span>Relays</span><span>Contactors</span><span>Sensors</span></div></article>
+          <article class="skill-card"><span class="skill-number">04</span><div class="skill-icon">✳</div><h3>Creative technology</h3><p>Exploring AI-assisted music and digital content creation as a practical creative workflow.</p><div class="tag-row"><span>AI tools</span><span>Digital content</span><span>Creative workflows</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad section-ink" id="projects">
+      <div class="container">
+        <div class="section-heading"><div><p class="section-kicker">04 — SELECTED WORK & PRACTICE</p><h2>Ideas turned into <span>action.</span></h2></div><p class="section-intro">A selection of practical experience and personal initiatives. I’m building these into a stronger project portfolio over time.</p></div>
+        <div class="project-grid">
+          <article class="project-card project-feature"><div class="project-art art-circuit"><span class="art-label">FIELD EXPERIENCE / AUTOMATION</span><div class="circuit-lines"></div><span class="art-symbol">⌁</span></div><div class="project-info"><div class="project-type">ELECTRICAL · AUTOMATION</div><h3>Irrigation control systems</h3><p>Practical exposure to pump and irrigation automation using timers, float switches, relays, contactors, sensors and solenoid valves.</p><span class="project-note">Hands-on exposure · Kenya</span></div></article>
+          <article class="project-card"><div class="project-art art-code"><span class="art-label">PERSONAL BUILD / WEB</span><div class="code-window"><b>01</b> &lt;portfolio /&gt;<br><b>02</b> design + code<br><b>03</b> deploy_ideas()</div></div><div class="project-info"><div class="project-type">SOFTWARE · WEB</div><h3>Personal portfolio</h3><p>This website — a continuing exercise in presenting technical experience, learning and projects clearly on the web.</p><a class="project-link" href="https://github.com/Sitroe-8248/sitonik" target="_blank" rel="noopener noreferrer">View source on GitHub ↗</a></div></article>
+          <article class="project-card"><div class="project-art art-creative"><span class="art-label">CREATIVE PROJECT / AI</span><div class="sound-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="art-word">quite creator<span>.</span></span></div><div class="project-info"><div class="project-type">AI · MUSIC · CONTENT</div><h3>Quite Creator</h3><p>An independent creative project exploring AI-assisted music production and no-face digital video content.</p><a class="project-link" href="https://www.youtube.com/@QUITECREATOR" target="_blank" rel="noopener noreferrer">Visit YouTube channel ↗</a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad section-light contact-section" id="contact">
+      <div class="container contact-grid">
+        <div><p class="section-kicker">05 — CONTACT</p><h2>Have an opportunity<br>or an idea?</h2><p class="contact-lead">I'm open to connecting about electrical engineering, technical roles, software and collaborative projects.</p></div>
+        <div class="contact-panel"><span class="contact-label">START A CONVERSATION</span><a class="email-link" href="mailto:sitonikrotich7@gmail.com">sitonikrotich7@gmail.com <span>↗</span></a><div class="contact-divider"></div><div class="social-links"><a href="https://github.com/Sitroe-8248" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.youtube.com/@QUITECREATOR" target="_blank" rel="noopener noreferrer">YouTube ↗</a><a href="https://www.tiktok.com/@quitecreator._offi" target="_blank" rel="noopener noreferrer">TikTok ↗</a></div></div>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    <p>&copy; <?php echo date("Y"); ?> Sitonik Kibet Rotich | My Digital Portfolio</p>
-  </footer>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">S</span><span>sitonik<span class="brand-dot">.</span></span></a><span>© <span id="year"></span> Sitonik Kibet Rotich. Built with purpose.</span><a href="#home" class="back-top">BACK TO TOP ↑</a></div></footer>
 </body>
 </html>
