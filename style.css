@@ -4,3 +4,23 @@
 @media(max-width:900px){.hero-grid{gap:35px}.skills-grid{grid-template-columns:repeat(2,1fr)}.section-heading{align-items:start;flex-direction:column;gap:20px}.section-intro{max-width:550px}.two-col{gap:55px}.project-grid{grid-template-columns:1fr 1fr}.project-card:last-child{grid-column:1/-1}.project-card:last-child .project-art{height:160px}}
 @media(max-width:650px){.container{width:min(100% - 36px,520px)}.section-pad{padding:78px 0}.nav-wrap{height:66px}.menu-toggle{display:flex;flex-direction:column;gap:6px;padding:10px}.menu-toggle span{display:block;width:23px;height:2px;background:#fff}.nav-links{display:none;position:absolute;top:66px;left:0;right:0;padding:22px 24px 26px;background:#0b1220;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:18px}.nav-links.open{display:flex}.nav-links .nav-cta{text-align:center}.hero{padding-top:75px;min-height:0}.hero-grid{grid-template-columns:1fr;gap:50px}.hero h1{font-size:clamp(42px,12vw,57px);letter-spacing:-2.8px}.hero-lead{font-size:14px}.hero-meta{flex-wrap:wrap;margin-top:30px}.profile-card{justify-self:center;min-height:370px;max-width:310px}.profile-photo{width:150px;height:150px}.hero-foot{margin-top:48px;font-size:8px}.two-col,.contact-grid{grid-template-columns:1fr;gap:28px}.about-copy{padding-top:0}.two-col h2,.section-heading h2{font-size:37px}.timeline-item{grid-template-columns:1fr;gap:9px;padding:25px 0}.timeline-date{padding-top:0}.skills-grid,.project-grid{grid-template-columns:1fr}.skill-card{min-height:0}.skill-card p{min-height:0}.project-card:last-child{grid-column:auto}.project-card:last-child .project-art{height:190px}.project-info p{min-height:0}.contact-panel{padding:25px 20px}.footer-inner{flex-wrap:wrap}.footer-inner>span{order:3;width:100%}.social-links{gap:18px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+
+
+/* Portfolio refresh: flagship product feature and future venture note */
+.refreshed-project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.refreshed-project-grid .project-feature{grid-column:1/-1;display:grid;grid-template-columns:1fr 1.1fr}
+.refreshed-project-grid .project-feature .project-art{height:auto;min-height:310px}
+.refreshed-project-grid .project-feature .project-info{padding:42px;display:flex;flex-direction:column;justify-content:center}
+.refreshed-project-grid .project-feature .project-info h3{font-size:clamp(23px,2.7vw,30px);line-height:1.3}
+.refreshed-project-grid .project-feature .project-info p{min-height:0;font-size:14px}
+.art-market{background:radial-gradient(circle at 50% 28%,#28516a 0%,#152e3d 45%,#0d1c2c 100%)}
+.art-market::before{content:"";position:absolute;inset:0;opacity:.25;background-image:linear-gradient(#6bc8bd22 1px,transparent 1px),linear-gradient(90deg,#6bc8bd22 1px,transparent 1px);background-size:27px 27px}
+.market-visual{z-index:1;display:flex;align-items:center;flex-direction:column;gap:9px;color:#fff}
+.market-icon{width:67px;height:67px;border-radius:17px;background:#102c44;display:grid;place-items:center;font-family:var(--display);font-size:41px;font-weight:800;border:1px solid #6ec4ba55}
+.market-visual strong{font-family:var(--display);font-size:clamp(24px,3.4vw,39px);letter-spacing:-1.9px}
+.market-visual strong span{color:#70d3c1}
+.market-visual small{font:10px var(--mono);letter-spacing:1px;color:#abc8d0;text-align:center}
+.market-status{position:absolute;bottom:18px;right:20px;font:9px var(--mono);letter-spacing:1px;color:#d2faef;border:1px solid #70d3c166;padding:6px 9px}
+.venture-note{border-left:3px solid var(--accent);margin:29px 0 0;padding:12px 18px;color:#a4b2c0;font-size:12px;line-height:1.9;background:#1a293b}
+.venture-note strong{color:#fff}
+@media(max-width:650px){.refreshed-project-grid{grid-template-columns:1fr}.refreshed-project-grid .project-feature{grid-column:auto;display:block}.refreshed-project-grid .project-feature .project-art{height:220px;min-height:0}.refreshed-project-grid .project-feature .project-info{padding:24px}.market-icon{width:54px;height:54px;font-size:33px}.market-visual strong{font-size:26px}.hero .eyebrow{flex-wrap:wrap}}
