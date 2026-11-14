@@ -12,7 +12,7 @@
     <nav>
       <a href="index.html">Home</a>
       <a href="about.php">About Me</a>
-      <a href="projects.php">Projects</a>
+      
       <a href="skills.php">Skills</a>
       <a href="contact.php">Contact</a>
     </nav>
@@ -22,8 +22,7 @@
     <div class="section">
       <h2>Who I Am</h2>
       <p>
-        My name is <strong>Sitonik Kibet Rotich</strong>. I am a dynamic business leader, innovator, and electrical technician. 
-        I blend technology, community impact, and active learning in web development and coding.
+        My name is <strong>Sitonik Kibet Rotich</strong>. I am an electrical engineering professional with practical field experience in metering, inspections and postpaid meter replacement. I value safety, accuracy and continuous learning.
       </p>
     </div>
 
@@ -38,16 +37,14 @@
     <div class="section">
       <h2>Goals</h2>
       <p>
-        I aim to master professional code presentation and assignment formatting, become an advanced full‑stack developer, 
-        and create projects that merge music, coding, and community impact.
+        I aim to deepen my expertise in industrial electrical maintenance, instrumentation, control systems and electrical safety.
       </p>
     </div>
 
     <div class="section">
       <h2>Interests</h2>
       <p>
-        I enjoy assignment beautification, workflow optimization, web development, Kenyan current affairs, cultural traditions, 
-        and exploring PLC automation and industrial control systems.
+        My technical interests include electrical systems, metering, PLCs, instrumentation and industrial control systems. I also follow Kenyan current affairs and value cultural traditions.
       </p>
     </div>
   </main>
