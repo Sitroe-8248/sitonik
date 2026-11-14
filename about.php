@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>About Me - Sitonik Portfolio</title>
+  <title>About | Sitonik Electrical Engineering</title>
   <link rel="stylesheet" href="style.css"> <!-- External CSS -->
 </head>
 <body>
@@ -50,7 +50,7 @@
   </main>
 
   <footer>
-    <p>&copy; <?php echo date("Y"); ?> Sitonik Kibet Rotich | My Digital Portfolio</p>
+    <p>&copy; <?php echo date("Y"); ?> Sitonik Kibet Rotich | Electrical Engineering</p>
   </footer>
 </body>
 </html>
