@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Contact Me - Sitonik Portfolio</title>
+  <title>Contact | Sitonik Electrical Engineering</title>
   <link rel="stylesheet" href="style.css"> <!-- External CSS -->
 </head>
 <body>
@@ -85,7 +85,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   </main>
 
   <footer>
-    <p>&copy; <?php echo date("Y"); ?> Sitonik Kibet Rotich | My Digital Portfolio</p>
+    <p>&copy; <?php echo date("Y"); ?> Sitonik Kibet Rotich | Electrical Engineering</p>
   </footer>
 </body>
 </html>
